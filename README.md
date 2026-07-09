@@ -6,6 +6,10 @@ RF Jammer that seeks to disrupt 2.4 GHz to 2.525 GHz frequency range through the
 
 # Video Showcase
 
+> OLED GUI + interaction between transmission and Spectrum Analyzer showcase
+
+> Sucessful jamming of RF-dependent device
+
 # Components
 
 *I sourced the Arduino Uno, Pushbuttons, and wires from an [ELEGOO UNO R3 Project Super Starter Kit](https://www.amazon.com/EL-KIT-001-Project-Complete-Starter-Tutorial/dp/B01CZTLHGE/ref=as_li_ss_tl?keywords=elegoo+super+starter+kit&qid=1582663388&sr=8-3&linkCode=sl1&tag=sonofthesouth-20&linkId=242e768d54e634daf31fdd05288857bc&language=en_US); the nRF24 modules and I2C OLED were obtained from both Amazon and Aliexpress respectively.*
@@ -18,6 +22,18 @@ RF Jammer that seeks to disrupt 2.4 GHz to 2.525 GHz frequency range through the
 
 + 0.96 inch I2C OLED <sub>(x1)</sub>
 
-+ A shit ton of wires
++ Some male-male and male-female wires
 
 # Replication Directions
+
+## 1. Schematic
+
+![nRF24l01+PA+LNA](https://lastminuteengineers.com/wp-content/uploads/arduino/v2/Arduino-Wiring-Fritzing-Connections-with-nRF24L01-PA-LNA-External-Antenna-Wireless-Module.png)
+
+![Pushbuttons](pushbuttons.png)
+
+![OLED](OLED.jpg)
+
+## 2. Code
+
+Once all components are wired correctly, all you need to do is upload "Wifi_Jammer.ino" onto your Arduino to replicate this project's software sucessfully.
