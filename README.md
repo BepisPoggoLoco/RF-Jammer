@@ -2,7 +2,7 @@
 
 ![Edward The Goat](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQctk4o3ZHWukfO4iGiav93fcIzckc3YwZrN3EcMCZ8g&s=10)
 
-RF Jammer that seeks to disrupt 2.4 GHz to 2.525 GHz frequency range through the constant maximum-throughput of two nRF24L01+PA+LNA modules.
+RF Jammer that seeks to disrupt 2.4 GHz to 2.525 GHz frequency range; through the constant maximum-throughput of two nRF24L01+PA+LNA modules, the device rapidly transmits a continuous carrier to randomized frequencies on the stated 2.4-2.525 GHz ISM band.
 
 # Showcase
 
