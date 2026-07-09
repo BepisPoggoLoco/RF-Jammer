@@ -1,7 +1,6 @@
 # Basis
 
-![Peak Cowboy Bepop](<img width="638" height="480" alt="image" src="https://github.com/user-attachments/assets/2f2dc6e7-e654-492e-a14f-ed0a10691fb3" />
-)
+![Edward The Goat](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQctk4o3ZHWukfO4iGiav93fcIzckc3YwZrN3EcMCZ8g&s=10)
 
 # Video Showcase
 
