@@ -14,7 +14,7 @@ RF Jammer that seeks to disrupt 2.4 GHz to 2.525 GHz frequency range; through th
 
 # Components
 
-*I sourced the Arduino Uno, Pushbuttons, and wires from an [ELEGOO UNO R3 Project Super Starter Kit](https://www.amazon.com/EL-KIT-001-Project-Complete-Starter-Tutorial/dp/B01CZTLHGE/ref=as_li_ss_tl?keywords=elegoo+super+starter+kit&qid=1582663388&sr=8-3&linkCode=sl1&tag=sonofthesouth-20&linkId=242e768d54e634daf31fdd05288857bc&language=en_US); the nRF24 modules and I2C OLED were obtained from both Amazon and Aliexpress respectively.*
+*I sourced the Arduino Uno, Pushbuttons, and wires from an [ELEGOO UNO R3 Project Super Starter Kit](https://www.amazon.com/EL-KIT-001-Project-Complete-Starter-Tutorial/dp/B01CZTLHGE/ref=as_li_ss_tl?keywords=elegoo+super+starter+kit&qid=1582663388&sr=8-3&linkCode=sl1&tag=sonofthesouth-20&linkId=242e768d54e634daf31fdd05288857bc&language=en_US); the nRF24L01 modules and I2C OLED were obtained from both Amazon and Aliexpress respectively.*
 
 + Arduino of any kind (I used an uno) <sub>(x1)</sub>
 
@@ -30,11 +30,19 @@ RF Jammer that seeks to disrupt 2.4 GHz to 2.525 GHz frequency range; through th
 
 ## 1. Schematic
 
-![nRF24l01+PA+LNA](https://lastminuteengineers.com/wp-content/uploads/arduino/v2/Arduino-Wiring-Fritzing-Connections-with-nRF24L01-PA-LNA-External-Antenna-Wireless-Module.png)
+I used the following diagrams to hookup the core components, using 3.3V/GND rails in order to reduce the complexity of the circuit. Ultimately the arrangement of this device's wiring is up to your creativity.
+
+## Important 
+
+For the nRF24L01's, make sure **both** modules share the same connection to MOSI, IRQ, SCK and MISO pins. Alternatively, make sure each module's CSN and CE pins are connected to differing digital pins on your Arduino. To match with the software, one module should be assigned pins 9 and 8 (CE, CSN) while the other should be assigned 7 and 6 (CE,CSN)
+
+![nRF24L01+PA+LNA](https://lastminuteengineers.com/wp-content/uploads/arduino/v2/Arduino-Wiring-Fritzing-Connections-with-nRF24L01-PA-LNA-External-Antenna-Wireless-Module.png)
 
 ![Pushbuttons](pushbuttons.png)
 
 ![OLED](OLED.jpg)
+
+
 
 ## 2. Code
 
