@@ -39,6 +39,7 @@ https://github.com/user-attachments/assets/b276b8a5-0840-4075-8c58-a8bbcd2cec49
 ## 1. Schematic
 
 I used the following diagrams to hookup the core components, using 3.3V/GND rails in order to reduce the complexity of the circuit. Ultimately the arrangement of this device's wiring is up to your creativity.
+> Note: NEVER connect these nRF24L01 + PA + LNA modules to 5V, which can potentially fry them.
 
 ***<ins>Important</ins>***
 
