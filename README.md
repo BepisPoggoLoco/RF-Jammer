@@ -12,7 +12,7 @@ The device also consists of a "spectrum analysis" option that graphs incoming tr
 
 > Final product image
 
-![Final Product](IMG_5939.png)
+![Final Product](image.png)
 
 > OLED GUI + interaction between transmission and Spectrum Analyzer showcase
 
