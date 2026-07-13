@@ -59,4 +59,4 @@ Make sure **both** nRF24's share the same connection to MOSI, IRQ, SCK and MISO.
 
 ## 2. Code
 
-Once all components are wired correctly, all you need to do is upload "Wifi_Jammer.ino" onto your Arduino to replicate this project's software sucessfully.
+Once all components are wired correctly, all you need to do is upload "RF_Jammer.ino" onto your Arduino to replicate this project's software sucessfully.
