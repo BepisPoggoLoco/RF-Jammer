@@ -2,11 +2,11 @@
 
 ![Edward The Goat](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQctk4o3ZHWukfO4iGiav93fcIzckc3YwZrN3EcMCZ8g&s=10)
 
-RF Jammer that seeks to disrupt 2.4 GHz to 2.525 GHz frequency range; through the constant maximum-throughput of two nRF24L01+PA+LNA modules, the device rapidly transmits a continuous carrier to randomized frequencies on the 2.4-2.525 GHz ISM band.
-> Despite the nRF24L01+PA+LNA module itself having a 100 meter+ transmission/receiving rate, this device's effective jamming range is very short
+RF Jammer that seeks to disrupt 2.4 GHz to 2.525 GHz frequency range; through the constant maximum-throughput of two nRF24L01 + PA + LNA modules, the device rapidly transmits a continuous carrier to randomized frequencies on the 2.4-2.525 GHz ISM band.
+> Contradictory to the nRF24L01 + PA + LNA's 100+ meter range, this device's effective jamming range is approximately much shorter.
 
-The device also has a "spectrum analysis" option that graphs incoming traffic along the targeted 2.4-2.525 GHz frequency band.
-> A true spectrum analysis graph measures the **exact** quantity of power of various channels across a frequency range; since the nRF24L01 + PA + LNA's we utilize are only capable of detecting if a specific band's traffic is above/below a -64 dBm threshold, we are instead graphing multiple "high" or "low" bars that indicate "high" or "low" traffic amongst various bands.
+The device also consists of a "spectrum analysis" option that graphs incoming traffic along the targeted 2.4-2.525 GHz frequency band.
+> A true spectrum analysis graph quantifies **exact** signal strength across a frequency range; the nRF24L01 + PA + LNA is only capable of detecting if the tuned RF channel proceeds a -64 dBm threshold. Hence, instead of graphing signal amplitude, we are graphing signal signficance.
 
 # Showcase
 
